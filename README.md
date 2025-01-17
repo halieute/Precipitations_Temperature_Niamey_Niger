@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Precipitation and Temperature Analysis for Niamey, Niger
 
 ## Description
@@ -26,3 +27,7 @@ This repository contains a JavaScript script to generate a climogram chart, comb
 ```javascript
 var roi = ee.FeatureCollection('projects/ee-ssouley/assets/Niamey');
 generateClimogram(roi, 2000, 2023);
+=======
+# Precipitations_Temperature_Niamey_Niger
+This repository contains a JavaScript script for generating a climogram that visualizes the relationship between precipitation (CHIRPS) and temperature (MODIS) in Niamey, Niger, from 2000 to 2023. The script processes climate data using Google Earth Engine and displays annual summaries and trends.
+>>>>>>> ae149b7562a3f66aeac07c506384facd1a642c38
